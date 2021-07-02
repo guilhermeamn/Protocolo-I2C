@@ -1,3 +1,7 @@
+# Protocolo I2C com Checksum e CRC
+- Sistemas de Comunicação Trabalho Final 2020.2
+- Guilherme Araujo Machado do Nascimento (17105750) e Manoel Morais Lemos Neto (17204282)
+
 # Bibliotecas necessárias:
 - PyQT5: $ pip3 install pyqt5 && sudo apt-get install python3-pyqt5 && sudo apt-get install pyqt5-dev-tools
 - Scipy: $ sudo pip3 install scipy
