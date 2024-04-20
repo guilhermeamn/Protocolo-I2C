@@ -3,6 +3,13 @@
 - Practical application of sending data with error detection methods (CRC and Checksum) between a Raspberry Pi 3 and an Arduino Uno, via I2C protocol
 - Guilherme Araujo Machado do Nascimento (17105750) and Manoel Morais Lemos Neto (17204282)
 
+<img src="montagem.png" width="40%">
+
+## Interface:
+- Interface to send data from the Raspberry to the Arduino, using CRC/CRC-8/CRC-10 or Checksum, developed in Python using PyQT5
+
+<img src="interface.png" width="40%">
+
 ## Libraries:
 - PyQT5: $ pip3 install pyqt5 && sudo apt-get install python3-pyqt5 && sudo apt-get install pyqt5-dev-tools
 - Scipy: $ sudo pip3 install scipy
@@ -16,3 +23,5 @@
  - Run efficiency.py file to save the calculated efficiency for that generator/mode
  - Repeat the process for all generators/modes
  - Run plot.py file to generate the efficiency plot
+
+<img src="plot.png" width="50%">
