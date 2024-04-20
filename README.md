@@ -1,8 +1,9 @@
-# Protocolo I2C com Checksum e CRC
-- Sistemas de Comunicação Trabalho Final 2020.2
-- Guilherme Araujo Machado do Nascimento (17105750) e Manoel Morais Lemos Neto (17204282)
+# I2C Protocol with Checksum and CRC
+- Communication Systems course final project 2020.2
+- Practical application of sending data with error detection methods (CRC and Checksum) between a Raspberry Pi 3 and an Arduino Uno, via I2C protocol
+- Guilherme Araujo Machado do Nascimento (17105750) and Manoel Morais Lemos Neto (17204282)
 
-# Bibliotecas necessárias:
+## Libraries:
 - PyQT5: $ pip3 install pyqt5 && sudo apt-get install python3-pyqt5 && sudo apt-get install pyqt5-dev-tools
 - Scipy: $ sudo pip3 install scipy
 - Matplotlib: $ pip3 install matplotlib
@@ -10,8 +11,8 @@
 - PySerial: $ pip3 install pyserial
 - Extras: $ sudo apt-get install libatlas-base-dev
 
-# Para gerar o gráfico de eficiência:
- - Executar o arquivo read_arduino.py enquanto envia os dados pelo Raspberry
- - Executar o arquivo efficiency.py para salvar a eficiência calculada para aquele gerador/modo
- - Repetir o processo para todos os geradores/modos
- - Executar o arquivo plot.py para gerar o gráfico
+## To generate the efficiency plot:
+ - Run read_arduino.py file while sending data via Raspberry
+ - Run efficiency.py file to save the calculated efficiency for that generator/mode
+ - Repeat the process for all generators/modes
+ - Run plot.py file to generate the efficiency plot
